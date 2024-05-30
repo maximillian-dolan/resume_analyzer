@@ -1,101 +1,54 @@
-                                                         Max Dolan
-                                                          London, United Kingdom
-              Ħ 07766357358 |   ć maximilliandolan@gmail.com |   u maximillian-dolan.github.io |   ^ maximillian-dolan   |   ] Max Dolan
+Max Dolan                                   Education
+
+                                            Scientific Programming and Data Science, University of Bristol
+Personal Information                        (MSc)
+                                            September 2023 - September 2024
+                                            ¼    Group Project – In the process of designing a programme that will be able to use satellite
+Scientific Programming and Data Science         data to monitor and predict the likelihood of forest fires. Developing practical data analysis
+Master’s student looking to progress in         and graphic communication skills
+
+the field of software engineering or data   ¼    Artificial Intelligence and Deep Learning – K-Means Clustering, Neural Networks and
+
+science using skills in both analytical         Decision Trees
+
+problem solving, and an understanding       ¼    Software Engineering and High-Performance Computing for scientists – Version Control,
+                                                Accelerated Coding and Cloud-native technologies
+of the process involved in tackling more
+abstract questions. Recently graduated      Physics and Philosophy (2:1), University of Bristol (BSc)
+with a Batchelor’s of Science in Physics    September 2020 - June 2023
+and Philosophy                              ¼    Essential Maths for Physics – 77% - Linear Algebra, Bayesian Statistics and Multivariable
+                                                Calculus
+
+                                            ¼    Particle Detector for CERN’s Experimental Areas – 78% - developed skills both in working
+ 07766357358                                   with a team and also working with professionals within the field of research
+# maximilliandolan@gmail.com                ¼    Awarded Bristol Plus award - achieved by less than 5% of graduates
+* London
+                                            Work Experience
+
+Links                                       PineRock, Intern
+                                            July 2023 - September 2023
+ï     Max Dolan
+                                            ¼    Researched the use of AI within their field of brand communications
+§     maximillian-dolan
+                                            ¼    Presented findings and recommendations to the entire business, leading to implementation
+                                                of key changes
 
 
-
-Personal Profile
-Scientific Computing with Data Science Master’s student looking to progress in the field of data science using skills in
-both creative and computational problem solving, and experience in client communications and stakeholder manage‑
-ment. Recently graduated with a Bachelor’s of Science in Physics and Philosophy.
-
-
-Education
-University of Bristol                                                                                         Bristol, UK
-MSc in Scientific Computing with Data Science                                                       Sep 2023 ‑ Sep 2024
-• Accepted onto the Google Developer Group mentor scheme
-• Software Engineering and High Performance Computing for scientists – Gained an improved understanding of accel‑
-  erated coding techniques, as well as the use of Cloud‑native technologies
-• Artificial Intelligence and Deep Learning – Foundation in Machine Learning techniques, and their practical implemen‑
-  tation, including decision trees, reinforcement learning, and neural networks
-• Quantum Information Theory ‑ Built upon undergraduate quantum mechanics knowledge, combining with statistics
-  to apply within computation
-
-University of Bristol                                                                                                                    Bristol, UK
-BSc in Physics and Philosophy (2:1)                                                                                              Sep 2020 ‑ Jul 2023
-• Awarded the Bristol plus prize, achieved by less than 5% of graduates
-• Particle Detector for CERN’s Experimental Areas – 78% ‑ developed skills both in working with a team and also working
-  with professionals within the field of research
-• Essential Maths for Physics – 77% ‑ Further improved knowledge in Linear Algebra, Bayesian Statistics and Multivari‑
-  able Calculus
-
-
-Skills
-     Languages       advanced ‑ Python(Pandas, numpy, Scikit‑learn etc.)
-                     intermediate ‑ C++, LaTeX, SQL, bash
-Developer Tools      Version Control (Git), Docker, VS code, Virtual Machines and Environments, Automated Testing
-     Soft Skills     Peer Programming, Stakeholder Management, Mathematical/Statistical knowledge
-
-Projects
-
-Updating the Pylj Atomistic Simulation Python Library                                                                                     Bristol, UK
-University of Bristol                                                                                                             Apr 2024 ‑ ongoing
-• Updating package for expansion by converting to be object‑orientated
-• Implementing GitHub status checks to ensure more robust development
-• Technical Skills: Python (classes), Docker containers, Numba
-• Soft Skills: Peer programming, Project management, Self‑teaching
-
-California Forest‑Fire Dashboard                                                                            Bristol, UK
-University of Bristol                                                                              Oct 2023 ‑ May 2024
-• Researched new ways of predicting forest fires, with 60% accuracy, using Machine Learning methods
-• Implemented data‑processing pipeline, through the use of Xarray and geomapping, on multiple data file‑formats
-• Presented data with the creation of a Streamlit dashboard that conveyed it a in clear and engaging way
-• Technical Skills: Python(Xarray), Geo‑Mapping, ML methods (Support Vector Machines, Random Forest etc.)
-• Soft Skills: Peer Programming, Project Management, Data Wrangling, Data Representation
-                                                                                                                                                    1
-Particle Detector for CERN’s Experimental Areas                                                              Bristol, UK
-CERN, University of Bristol                                                                         Oct 2022 ‑ May 2023
-• Worked directly with researchers at CERN to develop single‑photon sensitive detectors for use in high‑energy particle
-  physics experiments in various beam lines
-• Created prototype intensity‑monitor, able to give over 3 billion readings a second
-• Technical Skills: Python(pymeasure), Modelling Software (AutoCAD)
-• Soft Skills: Presentation Skills, Leadership, Teamwork, Project Management, Stakeholder Management
-
-
-Work Experience
-PineRock                                                                                             New York, USA
-Intern                                                                                          Jul 2023 ‑ Sep 2023
-• Researched the use of AI within their field of brand communications
-• Chaired a select committee of department heads to pitch ideas and gain feedback
-• Presented findings and recommendations to the entire business, leading to implementation of key changes
-• Skills: Teamwork, Communication, Presentation Skills, Stakeholder Management, Research
-
-University of Bristol                                                                                         Bristol, UK
-Student Advisory Group                                                                                Sep 2022 ‑ Jul 2023
-• Invited to join after having been elected a student course representative two years in a row
-• Participated in various focus groups to help create solutions to problems affecting the entire student body, including
-  transition from online to in‑person exams
-• Advised in the construction of £500 million Temple Quarter Campus, estimated to bring in £1.6 billion revenue annu‑
-  ally
-• Skills: Communication, Critical Thinking, Negotiation, Stakeholder Representation
-
-CHAOS (University of Bristol Physics Society)                                                             Bristol, UK
-Head of Promotion and Design                                                                      Jul 2022 ‑ Jul 2023
-• Refocused one of the largest societies in the country on building connections between students, and improving in‑
-  clusivity
-• Longlisted for the 2023 NSVA committee excellence award
-• Skills: Teamwork, Graphical Communication, Creative Thinking, Community Building
-
-Various                                                                                             Bristol/London, UK
-Hospitality work                                                                                    Jan 2018 ‑ ongoing
-• Have worked within catering, bars, kitchens and doing cleaning work
-• Had to be adaptive and flexible under pressure, collaborating with a wide range of people in unfamiliar environments
-• Acted proactively to independently organise and execute my duties every day
-• Skills: Teamwork, Time Management, Fast‑Learning, Customer Interaction, Practical Initiative
-
-
-
-
-                                        References available upon request.
-                                                                                                                        2
+Skills                                      CERN, Research
+                                            September 2022 - June 2023
+¼    Python
+                                            ¼    Worked directly with researchers at CERN to develop single-photon sensitive detectors for
+¼    C++
+                                                use in high-energy particle physics experiments in various beam lines
+¼    Bash
+                                            ¼    Worked with sufficient level of accuracy required for subatomic particle detection. Produced
+¼    Machine Learning Techniques                an intensity monitor capable of giving over 3 billion readings per second, detecting energies at
+¼    High Performance Computing                 a photonic level
+¼    Peer Programming
+                                            Various, Hospitality
+                                            January 2018 - ongoing
+                                            ¼    Have worked within catering, bars, kitchens and doing cleaning work
+    References available on request
+                                            ¼    Had to be adaptive and flexible under pressure, collaborating with a wide range of people in
+                                                unfamiliar environments
 
