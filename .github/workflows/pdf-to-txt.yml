@@ -36,4 +36,11 @@ jobs:
           git commit -m "Convert PDF resume to text"
           git push
 
+      - name: Trigger the second workflow
+        run: |
+          curl -X POST -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type":"process_resume"}'
+
 
