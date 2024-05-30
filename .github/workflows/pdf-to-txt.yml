@@ -1,4 +1,4 @@
-name: Convert PDF to text
+name: Convert PDF to Text
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
       - '**.pdf'
 
 permissions:
-  contents: write  # Add this line to grant write permissions
-  
+  contents: write
+
 jobs:
-  pdf-to-markdown:
+  pdf-to-text:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,10 +19,31 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y poppler-utils pandoc
+          sudo apt-get install -y poppler-utils
 
       - name: Convert PDF to text
-        run: pdftotext -layout MaxDolan_Resume.pdf resume.txt
+        run: pdftotext -layout MaxDolan_Resume.pdf resume_raw.txt
+
+      - name: Clean up extracted text
+        run: |
+          # Python script to clean up the text
+          echo """
+import re
+
+with open('resume_raw.txt', 'r') as file:
+    text = file.read()
+
+# Remove multiple spaces
+text = re.sub(r' +', ' ', text)
+
+# Remove leading/trailing whitespace from each line
+text = '\n'.join(line.strip() for line in text.split('\n'))
+
+# Save cleaned text
+with open('resume.txt', 'w') as file:
+    file.write(text)
+          """ > cleanup.py
+          python3 cleanup.py
 
       - name: Commit converted text file
         run: |
@@ -31,4 +52,5 @@ jobs:
           git add resume.txt
           git commit -m "Convert PDF resume to text"
           git push
+
 
