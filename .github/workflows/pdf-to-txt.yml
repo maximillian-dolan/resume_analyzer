@@ -1,38 +1,35 @@
-name: Process Resume Text
+name: Convert PDF to Text
 
 on:
   push:
     paths:
-      - 'resume.txt'
+      - '**.pdf'
 
 permissions:
-  contents: write
+  contents: write  # Add this line to grant write permissions
 
 jobs:
-  process-resume:
+  pdf-to-text:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install required Python packages
+      - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
 
-      - name: Run the resume processing script
-        run: python process_resume.py
+      - name: Convert PDF to text
+        run: pdftotext -layout MaxDolan_Resume.pdf resume.txt
 
-      - name: Commit formatted text files
+      - name: Commit converted text file
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add education.txt skills.txt experience.txt
-          git commit -m "Split resume into education, skills, and experience"
+          git add resume.txt
+          git commit -m "Convert PDF resume to text"
           git push
+
 
