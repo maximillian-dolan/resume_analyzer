@@ -21,15 +21,11 @@ jobs:
       - name: Convert PDF to text
         run: pdftotext -layout MaxDolan_Resume.pdf resume.txt
 
-      - name: Convert text to Markdown
-        run: |
-          pandoc resume.txt -f plain -t markdown -o resume.md
-
-      - name: Commit converted Markdown file
+      - name: Commit converted text file
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add resume.md
-          git commit -m "Convert PDF resume to Markdown"
+          git add resume.txt
+          git commit -m "Convert PDF resume to text"
           git push
 
