@@ -1,4 +1,4 @@
-name: Convert PDF to Markdown
+name: Convert PDF to text
 
 on:
   push:
