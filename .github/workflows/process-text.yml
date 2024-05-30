@@ -1,9 +1,8 @@
 name: Process Resume Text
 
 on:
-  push:
-    paths:
-      - 'resume.txt'
+  repository_dispatch:
+    types: [Convert PDF to Text]
 
 permissions:
   contents: write
