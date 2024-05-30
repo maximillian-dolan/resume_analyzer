@@ -23,6 +23,12 @@ jobs:
       - name: Install required Python packages
         run: |
           pip install --upgrade pip
+      
+      - name: Delete existing resume.txt
+        run: |
+          if [ -f education.txt ]; then rm education.txt; fi
+          if [ -f experience.txt ]; then rm experience.txt; fi
+          if [ -f skills.txt ]; then rm skills.txt; fi
 
       - name: Run the resume processing script
         run: python process_resume.py
