@@ -1,0 +1,77 @@
+Education
+
+place: University of Bristol                                                                                                                    Bristol, UK
+location: BSc in Physics and Philosophy (2:1)                                                                                              Sep 2020 ‑ Jul 2023
+role: • Awarded the Bristol plus prize, achieved by less than 5% of graduates
+date: • Awarded the Bristol plus prize, achieved by less than 5% of graduates
+info: • Particle Detector for CERN’s Experimental Areas – 78% ‑ developed skills both in working with a team and also working
+info: with professionals within the field of research
+info: • Essential Maths for Physics – 77% ‑ Further improved knowledge in Linear Algebra, Bayesian Statistics and Multivari‑
+info: able Calculus
+
+place: Skills
+location: Languages       advanced ‑ Python(Pandas, numpy, Scikit‑learn etc.)
+role: intermediate
+date: C++, LaTeX, SQL, bash
+info: Developer Tools      Version Control (Git), Docker, VS code, Virtual Machines and Environments, Automated Testing
+info: Soft Skills     Peer Programming, Stakeholder Management, Mathematical/Statistical knowledge
+
+place: Updating the Pylj Atomistic Simulation Python Library                                                                                     Bristol, UK
+location: University of Bristol                                                                                                             Apr 2024 ‑ ongoing
+role: • Updating package for expansion by converting to be object
+date: orientated
+info: • Implementing GitHub status checks to ensure more robust development
+info: • Technical Skills: Python (classes), Docker containers, Numba
+info: • Soft Skills: Peer programming, Project management, Self‑teaching
+
+place: California Forest‑Fire Dashboard                                                                            Bristol, UK
+location: University of Bristol                                                                              Oct 2023 ‑ May 2024
+role: • Researched new ways of predicting forest fires, with 60% accuracy, using Machine Learning methods
+date: • Researched new ways of predicting forest fires, with 60% accuracy, using Machine Learning methods
+info: • Implemented data‑processing pipeline, through the use of Xarray and geomapping, on multiple data file‑formats
+info: • Presented data with the creation of a Streamlit dashboard that conveyed it a in clear and engaging way
+info: • Technical Skills: Python(Xarray), Geo‑Mapping, ML methods (Support Vector Machines, Random Forest etc.)
+info: • Soft Skills: Peer Programming, Project Management, Data Wrangling, Data Representation
+info: 1
+info: Particle Detector for CERN’s Experimental Areas                                                              Bristol, UK
+info: CERN, University of Bristol                                                                         Oct 2022 ‑ May 2023
+info: • Worked directly with researchers at CERN to develop single‑photon sensitive detectors for use in high‑energy particle
+info: physics experiments in various beam lines
+info: • Created prototype intensity‑monitor, able to give over 3 billion readings a second
+info: • Technical Skills: Python(pymeasure), Modelling Software (AutoCAD)
+info: • Soft Skills: Presentation Skills, Leadership, Teamwork, Project Management, Stakeholder Management
+
+place: Work Experience
+location: PineRock                                                                                             New York, USA
+role: Intern                                                                                          Jul 2023
+date: Sep 2023
+info: • Researched the use of AI within their field of brand communications
+info: • Chaired a select committee of department heads to pitch ideas and gain feedback
+info: • Presented findings and recommendations to the entire business, leading to implementation of key changes
+info: • Skills: Teamwork, Communication, Presentation Skills, Stakeholder Management, Research
+
+place: University of Bristol                                                                                         Bristol, UK
+location: Student Advisory Group                                                                                Sep 2022 ‑ Jul 2023
+role: • Invited to join after having been elected a student course representative two years in a row
+date: • Invited to join after having been elected a student course representative two years in a row
+info: • Participated in various focus groups to help create solutions to problems affecting the entire student body, including
+info: transition from online to in‑person exams
+info: • Advised in the construction of £500 million Temple Quarter Campus, estimated to bring in £1.6 billion revenue annu‑
+info: ally
+info: • Skills: Communication, Critical Thinking, Negotiation, Stakeholder Representation
+
+place: CHAOS (University of Bristol Physics Society)                                                             Bristol, UK
+location: Head of Promotion and Design                                                                      Jul 2022 ‑ Jul 2023
+role: • Refocused one of the largest societies in the country on building connections between students, and improving in
+date: 
+info: clusivity
+info: • Longlisted for the 2023 NSVA committee excellence award
+info: • Skills: Teamwork, Graphical Communication, Creative Thinking, Community Building
+
+place: Various                                                                                             Bristol/London, UK
+location: Hospitality work                                                                                    Jan 2018 ‑ ongoing
+role: • Have worked within catering, bars, kitchens and doing cleaning work
+date: • Have worked within catering, bars, kitchens and doing cleaning work
+info: • Had to be adaptive and flexible under pressure, collaborating with a wide range of people in unfamiliar environments
+info: • Acted proactively to independently organise and execute my duties every day
+info: • Skills: Teamwork, Time Management, Fast‑Learning, Customer Interaction, Practical Initiative

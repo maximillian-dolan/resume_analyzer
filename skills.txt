@@ -1,0 +1,69 @@
+Skills
+     Languages       advanced ‑ Python(Pandas, numpy, Scikit‑learn etc.)
+                     intermediate ‑ C++, LaTeX, SQL, bash
+Developer Tools      Version Control (Git), Docker, VS code, Virtual Machines and Environments, Automated Testing
+     Soft Skills     Peer Programming, Stakeholder Management, Mathematical/Statistical knowledge
+
+Projects
+
+Updating the Pylj Atomistic Simulation Python Library                                                                                     Bristol, UK
+University of Bristol                                                                                                             Apr 2024 ‑ ongoing
+• Updating package for expansion by converting to be object‑orientated
+• Implementing GitHub status checks to ensure more robust development
+• Technical Skills: Python (classes), Docker containers, Numba
+• Soft Skills: Peer programming, Project management, Self‑teaching
+
+California Forest‑Fire Dashboard                                                                            Bristol, UK
+University of Bristol                                                                              Oct 2023 ‑ May 2024
+• Researched new ways of predicting forest fires, with 60% accuracy, using Machine Learning methods
+• Implemented data‑processing pipeline, through the use of Xarray and geomapping, on multiple data file‑formats
+• Presented data with the creation of a Streamlit dashboard that conveyed it a in clear and engaging way
+• Technical Skills: Python(Xarray), Geo‑Mapping, ML methods (Support Vector Machines, Random Forest etc.)
+• Soft Skills: Peer Programming, Project Management, Data Wrangling, Data Representation
+                                                                                                                                                    1
+Particle Detector for CERN’s Experimental Areas                                                              Bristol, UK
+CERN, University of Bristol                                                                         Oct 2022 ‑ May 2023
+• Worked directly with researchers at CERN to develop single‑photon sensitive detectors for use in high‑energy particle
+  physics experiments in various beam lines
+• Created prototype intensity‑monitor, able to give over 3 billion readings a second
+• Technical Skills: Python(pymeasure), Modelling Software (AutoCAD)
+• Soft Skills: Presentation Skills, Leadership, Teamwork, Project Management, Stakeholder Management
+
+
+Work Experience
+PineRock                                                                                             New York, USA
+Intern                                                                                          Jul 2023 ‑ Sep 2023
+• Researched the use of AI within their field of brand communications
+• Chaired a select committee of department heads to pitch ideas and gain feedback
+• Presented findings and recommendations to the entire business, leading to implementation of key changes
+• Skills: Teamwork, Communication, Presentation Skills, Stakeholder Management, Research
+
+University of Bristol                                                                                         Bristol, UK
+Student Advisory Group                                                                                Sep 2022 ‑ Jul 2023
+• Invited to join after having been elected a student course representative two years in a row
+• Participated in various focus groups to help create solutions to problems affecting the entire student body, including
+  transition from online to in‑person exams
+• Advised in the construction of £500 million Temple Quarter Campus, estimated to bring in £1.6 billion revenue annu‑
+  ally
+• Skills: Communication, Critical Thinking, Negotiation, Stakeholder Representation
+
+CHAOS (University of Bristol Physics Society)                                                             Bristol, UK
+Head of Promotion and Design                                                                      Jul 2022 ‑ Jul 2023
+• Refocused one of the largest societies in the country on building connections between students, and improving in‑
+  clusivity
+• Longlisted for the 2023 NSVA committee excellence award
+• Skills: Teamwork, Graphical Communication, Creative Thinking, Community Building
+
+Various                                                                                             Bristol/London, UK
+Hospitality work                                                                                    Jan 2018 ‑ ongoing
+• Have worked within catering, bars, kitchens and doing cleaning work
+• Had to be adaptive and flexible under pressure, collaborating with a wide range of people in unfamiliar environments
+• Acted proactively to independently organise and execute my duties every day
+• Skills: Teamwork, Time Management, Fast‑Learning, Customer Interaction, Practical Initiative
+
+
+
+
+                                        References available upon request.
+                                                                                                                        2
+
