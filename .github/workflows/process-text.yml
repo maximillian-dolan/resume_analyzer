@@ -2,7 +2,7 @@ name: Process Resume Text
 
 on:
   repository_dispatch:
-    types: [Convert PDF to Text]
+    types: [process_resume]
 
 permissions:
   contents: write
