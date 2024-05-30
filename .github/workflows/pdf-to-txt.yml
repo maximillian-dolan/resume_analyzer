@@ -1,56 +1,38 @@
-name: Convert PDF to Text
+name: Process Resume Text
 
 on:
   push:
     paths:
-      - '**.pdf'
+      - 'resume.txt'
 
 permissions:
   contents: write
 
 jobs:
-  pdf-to-text:
+  process-resume:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install required Python packages
         run: |
-          sudo apt-get update
-          sudo apt-get install -y poppler-utils
+          pip install --upgrade pip
 
-      - name: Convert PDF to text
-        run: pdftotext -layout MaxDolan_Resume.pdf resume_raw.txt
+      - name: Run the resume processing script
+        run: python process_resume.py
 
-      - name: Clean up extracted text
-        run: |
-          # Python script to clean up the text
-          echo """
-import re
-
-with open('resume_raw.txt', 'r') as file:
-    text = file.read()
-
-# Remove multiple spaces
-text = re.sub(r' +', ' ', text)
-
-# Remove leading/trailing whitespace from each line
-text = '\n'.join(line.strip() for line in text.split('\n'))
-
-# Save cleaned text
-with open('resume.txt', 'w') as file:
-    file.write(text)
-          """ > cleanup.py
-          python3 cleanup.py
-
-      - name: Commit converted text file
+      - name: Commit formatted text files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add resume.txt
-          git commit -m "Convert PDF resume to text"
+          git add education.txt skills.txt experience.txt
+          git commit -m "Split resume into education, skills, and experience"
           git push
-
 
