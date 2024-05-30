@@ -1,0 +1,35 @@
+name: Convert PDF to Markdown
+
+on:
+  push:
+    paths:
+      - '**.pdf'
+
+jobs:
+  pdf-to-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils pandoc
+
+      - name: Convert PDF to text
+        run: pdftotext -layout YOUR_RESUME.pdf resume.txt
+
+      - name: Convert text to Markdown
+        run: |
+          pandoc resume.txt -f plain -t markdown -o resume.md
+
+      - name: Commit converted Markdown file
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume.md
+          git commit -m "Convert PDF resume to Markdown"
+          git push
+
