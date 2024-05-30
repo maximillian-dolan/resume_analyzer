@@ -5,6 +5,9 @@ on:
     paths:
       - '**.pdf'
 
+permissions:
+  contents: write  # Add this line to grant write permissions
+  
 jobs:
   pdf-to-markdown:
     runs-on: ubuntu-latest
