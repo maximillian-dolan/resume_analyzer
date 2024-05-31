@@ -31,6 +31,14 @@ jobs:
           if [ -f skills.txt ]; then rm skills.txt; fi
           if [ -f Projects.txt ]; then rm Projects.txt; fi
 
+      - name: Commit deleted text files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add education.txt skills.txt experience.txt Projects.txt
+          git commit -m "Split resume into education, skills, and experience"
+          git push
+          
       - name: Run the resume processing script
         run: python process_resume.py
 
