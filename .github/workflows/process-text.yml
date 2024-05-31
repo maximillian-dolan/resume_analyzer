@@ -24,19 +24,26 @@ jobs:
         run: |
           pip install --upgrade pip
       
-      - name: Delete existing resume.txt
+      - name: Check and delete existing resume section files
+        id: delete_files
         run: |
-          if [ -f education.txt ]; then rm education.txt; fi
-          if [ -f experience.txt ]; then rm experience.txt; fi
-          if [ -f skills.txt ]; then rm skills.txt; fi
-          if [ -f Projects.txt ]; then rm Projects.txt; fi
+          files_to_delete="education.txt experience.txt skills.txt Projects.txt"
+          deleted_files=""
+          for file in $files_to_delete; do
+            if [ -f $file ]; then
+              rm $file
+              deleted_files="$deleted_files $file"
+            fi
+          done
+          echo "deleted_files=$deleted_files" >> $GITHUB_ENV
 
-      - name: Commit deleted text files
+      - name: Commit deletions if any
+        if: env.deleted_files != ''
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add education.txt skills.txt experience.txt Projects.txt
-          git commit -m "Split resume into education, skills, and experience"
+          git add ${{ env.deleted_files }}
+          git commit -m "Delete existing resume section files"
           git push
           
       - name: Run the resume processing script
