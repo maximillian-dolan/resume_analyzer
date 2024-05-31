@@ -70,13 +70,9 @@ for i, section in enumerate(sections):
 
     # Join the cleaned lines back into a single string
     cleaned_section_text = '\n'.join(cleaned_lines)
-    
-    # MAYBE DONT JOIN AGAIN AND INSTEAD LEAVE AS LIST OF LINES; SEPERATE BY BLANK STRINGS
 
+    # Easiest for now just to leave as a list
     sections_texts[section] = cleaned_lines
-    #print('===========================')
-    #print(f'{section}:\n{cleaned_section_text}\n')
-    #print('=============================')
 
 
 # Display the result
